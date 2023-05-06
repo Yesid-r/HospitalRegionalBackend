@@ -1,10 +1,9 @@
 # Agenda de citas médicas
 Este proyecto consiste en una aplicación web para agendar citas médicas. Está desarrollado con Java Spring Boot y utiliza una base de datos PostgreSql para almacenar los datos.
 # Requisitos
-Java 17
-PostgreSql
+Java 17  PostgreSql
 
-#Instalación
+# Instalación
 El proyecto de Java se puede clonar desde GitHub con el siguiente comando:
 ```bash
 git clone https://github.com/Yesid-/HospitalRegionalBackend.git
