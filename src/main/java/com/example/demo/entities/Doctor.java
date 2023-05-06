@@ -14,10 +14,16 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name = "doctores")
 public class Doctor implements Serializable{
+	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
     
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Long idDoctor;
     
     @Column(name = "nombre")
     private String nombre;
@@ -35,20 +41,19 @@ public class Doctor implements Serializable{
 		// TODO Auto-generated constructor stub
 	}
 
-	public Doctor(Long id, String nombre, String especialidad, String numeroIdentificacion) {
-		super();
-		this.id = id;
+	public Doctor(Long idDoctor, String nombre, String especialidad, String numeroIdentificacion) {
+
+		this.idDoctor = idDoctor;
 		this.nombre = nombre;
 		this.especialidad = especialidad;
 		this.numeroIdentificacion = numeroIdentificacion;
 	}
 
-	public Long getId() {
-		return id;
+	public Long getIdDoctor() {
+		return idDoctor;
 	}
-
-	public void setId(Long id) {
-		this.id = id;
+	public void setIdDoctor(Long idDoctor) {
+		this.idDoctor = idDoctor;
 	}
 
 	public String getNombre() {

@@ -15,6 +15,6 @@ public class HospitalBackendApplication {
 
 	@GetMapping("/test")
 	public String test () {
-		return "TEST";
+		return "API is working";
 	}
 }
