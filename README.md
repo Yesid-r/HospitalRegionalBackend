@@ -17,7 +17,7 @@ Crear la base de datos en PostgreSql. Se debe crear una base de datos con el nom
 La aplicación permite crear, eliminar y actualizar tareas de una lista. Para ejecutarla, primero se debe compilar el código fuente y luego ejecutar el archivo JAR resultante. Los comandos disponibles son:
 
 # acceder
-Acceder a la aplicación desde el navegador. La aplicación estará disponible en http://localhost:8080/.
+Acceder a la aplicación desde el navegador. La aplicación estará disponible en http://localhost:18080/.
 
 # Funcionalidades
 La aplicación permite:
